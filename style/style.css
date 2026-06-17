@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1335px;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.headr {
+    display: flex;
+    background-color: rgb(255, 153, 0);
+    color: aliceblue;
+}
+.headr nav{
+    display: flex;
+}
+.profile{
+    position: relative;
+    cursor: pointer;
+}
+
+.menu a{
+    padding: 8px;
+    color: aliceblue;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    margin-left: 405px;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+nav a{
+    color: aliceblue;
+    padding: 20px;
+    text-decoration: none;
+}
+.mainimg img{
+    width: 1330px;
+
+}
+.hero{
+    width: 1250px;
+}
+.mainfooter{
+        display: flex;
+    background-color: rgb(255, 153, 0);
+    color: aliceblue;
+    height: 200px;
+
+}
