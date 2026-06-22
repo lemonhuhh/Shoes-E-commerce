@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.page {
+  min-height: 80vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.box {
+  width: 400px;
+
+  background: white;
+
+  padding: 35px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 5px 20px #ccc;
+}
+
+h2 {
+  text-align: center;
+
+  margin-bottom: 15px;
+}
+
+.profile {
+  font-size: 55px;
+
+  text-align: center;
+}
+
+p {
+  text-align: center;
+
+  font-size: 13px;
+
+  margin: 15px;
+}
+
+label {
+  display: block;
+
+  font-size: 13px;
+
+  font-weight: bold;
+
+  margin-top: 15px;
+}
+
+input,
+select {
+  width: 100%;
+
+  height: 35px;
+
+  margin-top: 6px;
+
+  padding: 8px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+.gender {
+  display: flex;
+
+  gap: 15px;
+
+  margin-top: 10px;
+}
+
+.gender input {
+  width: auto;
+}
+
+.terms {
+  font-size: 13px;
+
+  margin-top: 15px;
+}
+
+.terms input {
+  width: auto;
+}
+
+button {
+  width: 100%;
+
+  height: 40px;
+
+  margin-top: 20px;
+
+  border: none;
+
+  background: #075bea;
+
+  color: white;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.google {
+  background: white;
+
+  color: black;
+
+  border: 1px solid #ccc;
+}
+
+.remember {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 15px;
+
+  font-size: 13px;
+}
+
+.remember input {
+  width: auto;
+}
+
+.or {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+.or span {
+  height: 1px;
+
+  background: #ccc;
+
+  flex: 1;
+}
+
+a {
+  color: #075bea;
+
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+
+  padding: 20px;
+}

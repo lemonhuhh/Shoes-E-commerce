@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    padding:20px;
+}
+
+.container{
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.08);
+}
+
+.top-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.header-left{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.icon-box{
+    width:60px;
+    height:60px;
+    background:#eef4ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    border-radius:12px;
+}
+
+.top-header p{
+    color:#666;
+    margin-top:5px;
+}
+
+.add-btn{
+    background:#2563eb;
+    color:#fff;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.filters{
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.filters input,
+.filters select{
+    padding:12px;
+    border:1px solid #d9dce3;
+    border-radius:8px;
+}
+
+.filters input{
+    flex:1;
+}
+
+.reset-btn{
+    padding:12px 18px;
+    border:1px solid #d9dce3;
+    background:#fff;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:18px;
+    border:1px solid #e5e7eb;
+    text-align:left;
+}
+
+th{
+    background:#f8fafc;
+}
+
+.stock{
+    color:#16a34a;
+    font-weight:600;
+}
+
+.low-stock{
+    color:#f59e0b;
+    font-weight:600;
+}
+
+.out-stock{
+    color:#ef4444;
+    font-weight:600;
+}
+
+.active{
+    background:#dcfce7;
+    color:#16a34a;
+    padding:6px 12px;
+    border-radius:6px;
+}
+
+.warning{
+    background:#fef3c7;
+    color:#d97706;
+    padding:6px 12px;
+    border-radius:6px;
+}
+
+.danger{
+    background:#fee2e2;
+    color:#dc2626;
+    padding:6px 12px;
+    border-radius:6px;
+}
+
+td button{
+    padding:8px 12px;
+    margin-right:5px;
+    border:1px solid #d1d5db;
+    background:#fff;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.footer{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.pagination{
+    display:flex;
+    gap:8px;
+}
+
+.pagination button{
+    padding:8px 14px;
+    border:1px solid #d1d5db;
+    background:#fff;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.current{
+    background:#2563eb !important;
+    color:white;
+}

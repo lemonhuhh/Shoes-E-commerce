@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    padding:20px;
+}
+
+.container{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.08);
+}
+
+.top-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.top-header p{
+    color:gray;
+    margin-top:5px;
+}
+
+.add-btn{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.filters{
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.filters input,
+.filters select{
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:6px;
+}
+
+.filters input{
+    flex:1;
+}
+
+.reset-btn{
+    padding:10px 15px;
+    border:none;
+    background:#f1f5f9;
+    cursor:pointer;
+    border-radius:6px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:15px;
+    border:1px solid #e5e7eb;
+    text-align:left;
+}
+
+th{
+    background:#f8fafc;
+}
+
+.admin{
+    background:#dbeafe;
+    color:#2563eb;
+    padding:5px 10px;
+    border-radius:5px;
+}
+
+.teacher{
+    background:#dcfce7;
+    color:#16a34a;
+    padding:5px 10px;
+    border-radius:5px;
+}
+
+.active{
+    background:#dcfce7;
+    color:#16a34a;
+    padding:5px 10px;
+    border-radius:5px;
+}
+
+.footer{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.pagination{
+    display:flex;
+    gap:8px;
+}
+
+.pagination button{
+    padding:8px 12px;
+    border:1px solid #ddd;
+    background:white;
+    cursor:pointer;
+}
+
+.current{
+    background:#2563eb !important;
+    color:white;
+}

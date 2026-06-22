@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create User</title>
+
+    <link rel="stylesheet" href="/style/product&user.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2>Admin Dashboard</h2>
+    </header>
+
+    <main>
+      <section class="form-card">
+        <header class="form-header">
+          <div>
+            <h2>Create New User</h2>
+
+            <p>Fill in the details below to create a new user account.</p>
+          </div>
+
+          <button>← Back to Users</button>
+        </header>
+
+        <section class="form-section">
+          <h3>👤 Personal Information</h3>
+
+          <div class="grid">
+            <input placeholder="Full Name" />
+
+            <input placeholder="Username" />
+
+            <input placeholder="Email Address" />
+
+            <input placeholder="Phone Number" />
+
+            <input placeholder="Date of Birth" />
+
+            <select>
+              <option>Select Gender</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <h3>🔒 Account Information</h3>
+
+          <div class="grid">
+            <input placeholder="Password" />
+
+            <input placeholder="Confirm Password" />
+
+            <select>
+              <option>Select Role</option>
+            </select>
+
+            <select>
+              <option>Active</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <h3>🏢 Additional Information</h3>
+
+          <div class="grid">
+            <select>
+              <option>Select Department</option>
+            </select>
+
+            <input placeholder="Designation" />
+          </div>
+
+          <textarea placeholder="Address"></textarea>
+        </section>
+
+        <section class="form-section">
+          <h3>🖼 Profile Picture</h3>
+
+          <input type="file" />
+
+          <div class="image-box">Profile Preview</div>
+        </section>
+
+        <footer class="buttons">
+          <button class="reset">Reset</button>
+
+          <button class="primary">+ Create User</button>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

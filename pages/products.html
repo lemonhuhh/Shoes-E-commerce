@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Dashboard</title>
+    <link rel="stylesheet" href="/style/products.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header class="top-header">
+        <div class="header-left">
+            <div class="icon-box">🛍️</div>
+
+            <div>
+                <h1>Products</h1>
+                <p>List of all products in your store</p>
+            </div>
+        </div>
+
+        <button class="add-btn">+ Add New Product</button>
+    </header>
+
+    <section class="filters">
+        <input type="text" placeholder="Search products...">
+
+        <select>
+            <option>All Categories</option>
+            <option>Electronics</option>
+            <option>Accessories</option>
+            <option>Apparel</option>
+        </select>
+
+        <select>
+            <option>All Status</option>
+            <option>Active</option>
+            <option>Low Stock</option>
+            <option>Out of Stock</option>
+        </select>
+
+        <button class="reset-btn">Reset Filters</button>
+    </section>
+
+    <section class="products-table">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Status</th>
+                    <th>Added On</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <strong>Smart Watch</strong><br>
+                        SKU: SW-001
+                    </td>
+                    <td>Electronics</td>
+                    <td>$49.99</td>
+                    <td class="stock">45</td>
+                    <td><span class="active">Active</span></td>
+                    <td>20 May 2024</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <strong>Wireless Headphones</strong><br>
+                        SKU: WH-002
+                    </td>
+                    <td>Electronics</td>
+                    <td>$79.99</td>
+                    <td class="stock">32</td>
+                    <td><span class="active">Active</span></td>
+                    <td>19 May 2024</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <strong>Laptop Backpack</strong><br>
+                        SKU: LB-003
+                    </td>
+                    <td>Bags</td>
+                    <td>$29.99</td>
+                    <td class="stock">18</td>
+                    <td><span class="active">Active</span></td>
+                    <td>18 May 2024</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <strong>Running Shoes</strong><br>
+                        SKU: RS-004
+                    </td>
+                    <td>Footwear</td>
+                    <td>$59.99</td>
+                    <td class="stock">25</td>
+                    <td><span class="active">Active</span></td>
+                    <td>17 May 2024</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <strong>Cotton T-Shirt</strong><br>
+                        SKU: TS-005
+                    </td>
+                    <td>Apparel</td>
+                    <td>$15.99</td>
+                    <td class="stock">60</td>
+                    <td><span class="active">Active</span></td>
+                    <td>16 May 2024</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>
+                        <strong>Water Bottle</strong><br>
+                        SKU: WB-006
+                    </td>
+                    <td>Accessories</td>
+                    <td>$9.99</td>
+                    <td class="stock">50</td>
+                    <td><span class="active">Active</span></td>
+                    <td>15 May 2024</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td>
+                        <strong>Leather Wallet</strong><br>
+                        SKU: LW-007
+                    </td>
+                    <td>Accessories</td>
+                    <td>$19.99</td>
+                    <td class="low-stock">22</td>
+                    <td><span class="warning">Low Stock</span></td>
+                    <td>14 May 2024</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>8</td>
+                    <td>
+                        <strong>Coffee Mug</strong><br>
+                        SKU: CM-008
+                    </td>
+                    <td>Home & Kitchen</td>
+                    <td>$7.99</td>
+                    <td class="out-stock">0</td>
+                    <td><span class="danger">Out of Stock</span></td>
+                    <td>13 May 2024</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </section>
+
+    <footer class="footer">
+        <p>Showing 1 to 8 of 24 products</p>
+
+        <div class="pagination">
+            <button>&lt;</button>
+            <button class="current">1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>&gt;</button>
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>

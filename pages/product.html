@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add Product</title>
+    <link rel="stylesheet" href="/style/product.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2>Admin Dashboard</h2>
+    </header>
+
+    <main>
+      <section class="form-card">
+        <header class="form-header">
+          <div>
+            <h2>Add New Product</h2>
+            <p>Fill in the details to add a new product.</p>
+          </div>
+
+          <button>← Back to Products</button>
+        </header>
+
+        <section class="form-section">
+          <h3>🏷 Basic Information</h3>
+
+          <div class="grid">
+            <input placeholder="Product name" />
+
+            <select>
+              <option>Select Category</option>
+            </select>
+
+            <input placeholder="Brand" />
+
+            <input placeholder="Enter SKU" />
+          </div>
+
+          <input class="full" placeholder="Short Description" />
+
+          <textarea placeholder="Full description of product"></textarea>
+        </section>
+
+        <section class="form-section">
+          <h3>💲 Pricing & Stock</h3>
+
+          <div class="grid">
+            <input placeholder="Price" />
+
+            <input placeholder="Discount" />
+
+            <input placeholder="Sale Price" />
+
+            <input placeholder="Cost Price" />
+
+            <input placeholder="Stock Quantity" />
+
+            <input placeholder="Low Stock Alert" />
+          </div>
+        </section>
+
+        <section class="form-section">
+          <h3>🖼 Product Image</h3>
+
+          <input type="file" />
+
+          <div class="image-box">Image Preview</div>
+        </section>
+
+        <section class="form-section">
+          <h3>ⓘ Additional Information</h3>
+
+          <div class="grid">
+            <select>
+              <option>Active</option>
+            </select>
+
+            <input placeholder="Weight" />
+
+            <input placeholder="Dimensions" />
+          </div>
+        </section>
+
+        <footer class="buttons">
+          <button class="reset">Reset</button>
+
+          <button class="primary">+ Add Product</button>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
