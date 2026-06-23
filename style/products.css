@@ -55,6 +55,11 @@ body{
     cursor:pointer;
 }
 
+.add-btn a{
+    text-decoration: none;
+    color: white;
+}
+
 .filters{
     display:flex;
     gap:15px;
